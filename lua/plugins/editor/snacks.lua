@@ -1,6 +1,20 @@
 require("snacks").setup({
 	picker = {
 		sources = {
+			projects = {
+				dev = {
+					"D:/Projects",
+				},
+
+				patterns = {
+					".git",
+					"Cargo.toml",
+					"package.json",
+					"pyproject.toml",
+				},
+
+				max_depth = 3,
+			},
 			explorer = {
 				layout = {
 					auto_hide = { "input" },
@@ -43,6 +57,14 @@ require("snacks").setup({
 					key = "f",
 					desc = "Find File",
 					action = ":lua Snacks.dashboard.pick('files')",
+				},
+				{
+					icon = " ",
+					key = "p",
+					desc = "Projects",
+					action = function()
+						Snacks.picker.projects()
+					end,
 				},
 				{
 					icon = " ",

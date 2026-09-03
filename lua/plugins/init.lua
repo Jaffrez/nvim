@@ -15,6 +15,8 @@ vim.pack.add({
 	{ src = "https://github.com/folke/which-key.nvim", name = "which-key" },
 	{ src = "https://github.com/mrcjkb/rustaceanvim", name = "rustaceanvim" },
 	{ src = "https://github.com/rachartier/tiny-cmdline.nvim", name = "tiny-cmdline" },
+	{ src = "https://github.com/arborist-ts/arborist.nvim", name = "arborist" },
+	{ src = "https://github.com/windwp/nvim-autopairs", name = "nvim-autopairs" },
 })
 
 require("plugins.ui.colorscheme")
@@ -32,5 +34,7 @@ require("plugins.ui.dropbar")
 require("plugins.editor.snacks")
 require("plugins.ui.which-key")
 require("plugins.ui.tiny-cmdline")
+require("plugins.editor.arborist")
 
 require("plugins.keymaps")
+require("plugins.disable")

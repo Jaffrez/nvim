@@ -89,6 +89,11 @@ end, {
 	desc = "Explorer",
 })
 
+-- Projects
+map("n", "<leader>fp", function()
+	Snacks.picker.projects()
+end, opts("Find: Projects"))
+
 -- ============================================================================
 -- Rustaceanvim
 -- ============================================================================
