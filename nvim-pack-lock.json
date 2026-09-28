@@ -62,6 +62,10 @@
       "rev": "455808fd0fae06e6d70fadfd61432275db8f34ce",
       "src": "https://github.com/SmiteshP/nvim-navic"
     },
+    "pendulum": {
+      "rev": "b884353d7c3e7a6fde477d8adcf0d0acf5ed077d",
+      "src": "https://github.com/ptdewey/pendulum-nvim"
+    },
     "rustaceanvim": {
       "rev": "8fa1a98f514041132ab40088be53c130eb8d14c9",
       "src": "https://github.com/mrcjkb/rustaceanvim"

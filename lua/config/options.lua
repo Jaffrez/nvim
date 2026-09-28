@@ -28,6 +28,7 @@ local options = {
 	showcmd = false,
 	ruler = false,
 	cmdheight = 0,
+	mouse = "",
 }
 
 for k, v in pairs(options) do

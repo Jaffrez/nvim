@@ -17,6 +17,7 @@ vim.pack.add({
 	{ src = "https://github.com/rachartier/tiny-cmdline.nvim", name = "tiny-cmdline" },
 	{ src = "https://github.com/arborist-ts/arborist.nvim", name = "arborist" },
 	{ src = "https://github.com/windwp/nvim-autopairs", name = "nvim-autopairs" },
+	{ src = "https://github.com/ptdewey/pendulum-nvim", name = "pendulum" },
 })
 
 require("plugins.ui.colorscheme")
@@ -35,6 +36,8 @@ require("plugins.editor.snacks")
 require("plugins.ui.which-key")
 require("plugins.ui.tiny-cmdline")
 require("plugins.editor.arborist")
+require("plugins.editor.autopairs")
+require("plugins.editor.pendulum")
 
 require("plugins.keymaps")
 require("plugins.disable")

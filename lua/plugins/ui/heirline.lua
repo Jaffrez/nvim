@@ -95,7 +95,7 @@ local vim_mode = {
 }
 
 local ruler = {
-	provider = " %10(%P %L:%c%)",
+	provider = " %-10(%P %L:%c%)",
 	hl = {
 		fg = colors.overlay1,
 	},
