@@ -1,4 +1,6 @@
 local options = {
+	foldlevel = 99,
+	foldlevelstart = 99,
 	number = true,
 	cursorline = true,
 	scrolloff = 8,

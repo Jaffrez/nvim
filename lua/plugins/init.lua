@@ -9,7 +9,12 @@ vim.pack.add({
     { src = "https://github.com/nvim-mini/mini.surround", name = "mini-surround" },
     { src = "https://github.com/f-person/git-blame.nvim", name = "git-blame" },
     { src = "https://github.com/arborist-ts/arborist.nvim", name = "arborist" },
-    { src = "https://github.com/saghen/blink.indent", name = "blink-indent" }
+    { src = "https://github.com/saghen/blink.indent", name = "blink-indent" },
+    { src = "https://github.com/monkoose/matchparen.nvim", name = "matchparen" },
+    { src = "https://github.com/nvim-treesitter/nvim-treesitter-context", name = "treesitter-context"},
+    { src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects", name = "treesitter-text-object" },
+    { src = "https://github.com/OXY2DEV/foldtext.nvim", name = "foldtext" },
+    { src = "https://github.com/Bekaboo/dropbar.nvim", name = "dropbar" }
 })
 
 require("plugins.catppuccin")
@@ -23,3 +28,8 @@ require("plugins.mini-surround")
 require("plugins.git-blame")
 require("plugins.arborist")
 require("plugins.blink-indent")
+require("plugins.matchparen")
+require("plugins.treesitter-context")
+require("plugins.treesitter-text-objects")
+require("plugins.foldtext")
+require("plugins.dropbar")

@@ -24,9 +24,17 @@
       "rev": "edefef779ab08ce1a4a404713e3012b0d202bd35",
       "src": "https://github.com/catppuccin/nvim"
     },
+    "dropbar": {
+      "rev": "f7c6fa21e2a7c32576e7a1791774a3736987f467",
+      "src": "https://github.com/Bekaboo/dropbar.nvim"
+    },
     "fidget": {
       "rev": "9e0201673e08e997e7cf52afca5565c70bd117f3",
       "src": "https://github.com/j-hui/fidget.nvim"
+    },
+    "foldtext": {
+      "rev": "bfe4c68c7b318139e9b11124b7324e95cfd9f283",
+      "src": "https://github.com/OXY2DEV/foldtext.nvim"
     },
     "fzf-lua": {
       "rev": "ed0e0ead1789ee349cbf025900931fb402b1e05e",
@@ -40,6 +48,10 @@
       "rev": "fae936abb5e0345b85c3a03ecf38525b0828b992",
       "src": "https://github.com/rebelot/heirline.nvim"
     },
+    "matchparen": {
+      "rev": "38e9cf93220adf34991c4602ca94d279687659fd",
+      "src": "https://github.com/monkoose/matchparen.nvim"
+    },
     "mini-surround": {
       "rev": "72feeaa0f984646efde875cc775a97b6f8a8be9b",
       "src": "https://github.com/nvim-mini/mini.surround"
@@ -48,6 +60,14 @@
       "rev": "e56797f90192d81f1fda02e662fc3e8e3d775027",
       "src": "https://github.com/nvim-mini/mini.icons",
       "version": "'stable'"
+    },
+    "treesitter-context": {
+      "rev": "f3061339b8eaf9fda873600bc425b8d2d8502533",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter-context"
+    },
+    "treesitter-text-object": {
+      "rev": "5c7b0263797dfd1bd6202f2b219f3b53a80b2187",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
     },
     "which-key": {
       "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",
