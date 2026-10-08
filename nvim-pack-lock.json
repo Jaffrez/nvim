@@ -12,6 +12,14 @@
       "rev": "2e9c9768affeaf3a48b2dc329eb59763012f79f6",
       "src": "https://github.com/saghen/blink.indent"
     },
+    "blink-lib": {
+      "rev": "fd9a48ebbe6ec30d5dfcc5b42c243941ccdca1aa",
+      "src": "https://github.com/saghen/blink.lib"
+    },
+    "blink-pairs": {
+      "rev": "ef8fc29c8afa0fc1d0eb611a1a76fd87f0951f6e",
+      "src": "https://github.com/saghen/blink.pairs"
+    },
     "catppuccin": {
       "rev": "edefef779ab08ce1a4a404713e3012b0d202bd35",
       "src": "https://github.com/catppuccin/nvim"
