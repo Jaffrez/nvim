@@ -20,9 +20,18 @@
       "rev": "ef8fc29c8afa0fc1d0eb611a1a76fd87f0951f6e",
       "src": "https://github.com/saghen/blink.pairs"
     },
+    "blink.cmp": {
+      "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
+      "src": "https://github.com/saghen/blink.cmp",
+      "version": "'v1.10.2'"
+    },
     "catppuccin": {
       "rev": "edefef779ab08ce1a4a404713e3012b0d202bd35",
       "src": "https://github.com/catppuccin/nvim"
+    },
+    "conform": {
+      "rev": "016802de402556da54c36bd7359b441266b01cdd",
+      "src": "https://github.com/stevearc/conform.nvim"
     },
     "dropbar": {
       "rev": "f7c6fa21e2a7c32576e7a1791774a3736987f467",
@@ -48,6 +57,14 @@
       "rev": "fae936abb5e0345b85c3a03ecf38525b0828b992",
       "src": "https://github.com/rebelot/heirline.nvim"
     },
+    "lspconfig": {
+      "rev": "db68de3575fff9dd9bb78b34c8371759ed35fe34",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "mason": {
+      "rev": "2a6940af80375532e5e9e7c1f2fc6319a1b7a69d",
+      "src": "https://github.com/mason-org/mason.nvim"
+    },
     "matchparen": {
       "rev": "38e9cf93220adf34991c4602ca94d279687659fd",
       "src": "https://github.com/monkoose/matchparen.nvim"
@@ -60,6 +77,30 @@
       "rev": "e56797f90192d81f1fda02e662fc3e8e3d775027",
       "src": "https://github.com/nvim-mini/mini.icons",
       "version": "'stable'"
+    },
+    "neo-tree": {
+      "rev": "ffdf8d93c8db197a5cab072a18cc8da69d490b81",
+      "src": "https://github.com/nvim-neo-tree/neo-tree.nvim"
+    },
+    "nui.nvim": {
+      "rev": "10fc361835c856ba4233ef5ea135b919bf3dce97",
+      "src": "https://github.com/MunifTanjim/nui.nvim"
+    },
+    "nvim-tree": {
+      "rev": "355bcc85a48f45b3e728219f10b880d569928965",
+      "src": "https://github.com/nvim-tree/nvim-tree.lua"
+    },
+    "pendulum": {
+      "rev": "b884353d7c3e7a6fde477d8adcf0d0acf5ed077d",
+      "src": "https://github.com/ptdewey/pendulum-nvim"
+    },
+    "plenary.nvim": {
+      "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
+      "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "rustaceanvim": {
+      "rev": "a968f5133b8b24f481de12f08cd79420d1ace559",
+      "src": "https://github.com/mrcjkb/rustaceanvim"
     },
     "treesitter-context": {
       "rev": "f3061339b8eaf9fda873600bc425b8d2d8502533",

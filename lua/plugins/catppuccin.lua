@@ -3,6 +3,7 @@ require("catppuccin").setup({
 	term_colors = true,
 	integrations = {
 		fzf = true,
+		neotree = true,
 	},
 })
 
@@ -15,4 +16,3 @@ if vim.g.neovide then
 		vim.g.neovide_title_background_color = string.format("#%06x", normal.bg)
 	end
 end
-
