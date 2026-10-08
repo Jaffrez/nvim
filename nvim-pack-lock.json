@@ -1,8 +1,16 @@
 {
   "plugins": {
+    "arborist": {
+      "rev": "4515fdd6d3d20315dbbde310f6a26151b595b40d",
+      "src": "https://github.com/arborist-ts/arborist.nvim"
+    },
     "autopairs": {
       "rev": "430522f95fe4fb7c511ec64f8c1a90cc6a66c05c",
       "src": "https://github.com/windwp/nvim-autopairs"
+    },
+    "blink-indent": {
+      "rev": "2e9c9768affeaf3a48b2dc329eb59763012f79f6",
+      "src": "https://github.com/saghen/blink.indent"
     },
     "catppuccin": {
       "rev": "edefef779ab08ce1a4a404713e3012b0d202bd35",

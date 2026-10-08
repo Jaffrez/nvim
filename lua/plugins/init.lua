@@ -8,6 +8,8 @@ vim.pack.add({
     { src = "https://github.com/folke/which-key.nvim", name = "which-key" },
     { src = "https://github.com/nvim-mini/mini.surround", name = "mini-surround" },
     { src = "https://github.com/f-person/git-blame.nvim", name = "git-blame" },
+    { src = "https://github.com/arborist-ts/arborist.nvim", name = "arborist" },
+    { src = "https://github.com/saghen/blink.indent", name = "blink-indent" }
 })
 
 require("plugins.catppuccin")
@@ -19,3 +21,5 @@ require("plugins.fidget")
 require("plugins.which-key")
 require("plugins.mini-surround")
 require("plugins.git-blame")
+require("plugins.arborist")
+require("plugins.blink-indent")
