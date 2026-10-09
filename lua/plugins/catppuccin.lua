@@ -4,6 +4,14 @@ require("catppuccin").setup({
 	integrations = {
 		fzf = true,
 		neotree = true,
+		treesitter_context = true,
+		mason = true,
+		fidget = true,
+		dropbar = {
+			enabled = true,
+			color_mode = true,
+		},
+		blink_indent = true,
 	},
 })
 
