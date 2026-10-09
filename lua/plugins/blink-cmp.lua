@@ -7,7 +7,19 @@ require("blink.cmp").setup({
 
 		["<CR>"] = { "accept", "fallback" },
 	},
+	sources = {
+		default = { "lsp", "path", "buffer" },
+	},
+	signature = {
+		enabled = true,
+	},
 	completion = {
+		list = {
+			selection = {
+				preselect = true,
+				auto_insert = false,
+			},
+		},
 		menu = {
 			border = "none",
 			draw = {

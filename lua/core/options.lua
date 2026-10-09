@@ -1,4 +1,6 @@
 local options = {
+	foldmethod = "expr",
+	foldexpr = "v:lua.vim.treesitter.foldexpr()",
 	foldlevel = 99,
 	foldlevelstart = 99,
 	number = true,

@@ -5,4 +5,4 @@ require("neo-tree").setup({
 	},
 })
 
-map("n", "<leader>e", "<cmd>Neotree<cr>", opts("Toggle neotree"))
+map("n", "<leader>e", "<cmd>Neotree toggle<cr>", opts("Toggle neotree"))
