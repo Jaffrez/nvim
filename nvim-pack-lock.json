@@ -98,6 +98,10 @@
       "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
       "src": "https://github.com/nvim-lua/plenary.nvim"
     },
+    "project": {
+      "rev": "e69cff7f51a9f130b010bdac5c0745d62ac47127",
+      "src": "https://github.com/DrKJeff16/project.nvim"
+    },
     "rustaceanvim": {
       "rev": "a968f5133b8b24f481de12f08cd79420d1ace559",
       "src": "https://github.com/mrcjkb/rustaceanvim"
