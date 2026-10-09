@@ -21,9 +21,10 @@ vim.pack.add({
 	{ src = "https://github.com/saghen/blink.cmp", name = "blink.cmp", version = "v1.10.2" },
 	{ src = "https://github.com/stevearc/conform.nvim", name = "conform" },
 	{ src = "https://github.com/mrcjkb/rustaceanvim", name = "rustaceanvim" },
+	{ src = "https://github.com/nvim-neo-tree/neo-tree.nvim", name = "neo-tree" },
 	"https://github.com/nvim-lua/plenary.nvim",
 	"https://github.com/MunifTanjim/nui.nvim",
-	{ src = "https://github.com/nvim-neo-tree/neo-tree.nvim", name = "neo-tree" },
+	{ src = "https://github.com/akinsho/toggleterm.nvim", name = "toggleterm" },
 })
 
 require("plugins.catppuccin")
@@ -48,3 +49,4 @@ require("plugins.lsp")
 require("plugins.blink-cmp")
 require("plugins.conform")
 require("plugins.neo-tree")
+require("plugins.toggleterm")

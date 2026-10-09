@@ -102,6 +102,10 @@
       "rev": "a968f5133b8b24f481de12f08cd79420d1ace559",
       "src": "https://github.com/mrcjkb/rustaceanvim"
     },
+    "toggleterm": {
+      "rev": "9a88eae817ef395952e08650b3283726786fb5fb",
+      "src": "https://github.com/akinsho/toggleterm.nvim"
+    },
     "treesitter-context": {
       "rev": "f3061339b8eaf9fda873600bc425b8d2d8502533",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter-context"
