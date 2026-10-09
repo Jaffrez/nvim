@@ -25,6 +25,7 @@ vim.pack.add({
 	"https://github.com/nvim-lua/plenary.nvim",
 	"https://github.com/MunifTanjim/nui.nvim",
 	{ src = "https://github.com/akinsho/toggleterm.nvim", name = "toggleterm" },
+	{ src = "https://github.com/rachartier/tiny-inline-diagnostic.nvim", name = "tiny-inline-diagnostic" },
 })
 
 require("plugins.catppuccin")
@@ -50,3 +51,4 @@ require("plugins.blink-cmp")
 require("plugins.conform")
 require("plugins.neo-tree")
 require("plugins.toggleterm")
+require("plugins.tiny-inline-diagnostic")
