@@ -1,3 +1,7 @@
-require("project").setup({})
+require("project").setup({
+    fzf_lua = {
+        enabled = true,
+    },
+})
 
-map("n", "<leader>fp", "<cmd>Project fzf_lua<cr>", opts("Find: Projects"))
+map("n", "<leader>fp", "<cmd>Project fzf-lua<cr>", opts("Find: Projects"))

@@ -20,3 +20,5 @@ require("dropbar").setup({
 		},
 	},
 })
+
+map("n", "<leader>cb", require("dropbar.api").pick, opts("Code: Pick breadcrumb"))

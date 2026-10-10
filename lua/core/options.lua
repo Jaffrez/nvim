@@ -39,3 +39,13 @@ local options = {
 for k, v in pairs(options) do
 	vim.opt[k] = v
 end
+
+if vim.o.shell:lower():match("powershell") or vim.o.shell:lower():match("pwsh") then
+    vim.opt.shelltemp = false
+    vim.opt.shellcmdflag = "-NoLogo -NoProfile -Command "
+        .. "[Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.UTF8Encoding]::new();"
+        .. "$PSDefaultParameterValues['Out-File:Encoding']='utf8';"
+    vim.opt.shellpipe = "> %s 2>&1"
+    vim.opt.shellquote = ""
+    vim.opt.shellxquote = ""
+end

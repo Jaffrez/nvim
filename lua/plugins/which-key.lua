@@ -26,3 +26,13 @@ wk.setup({
 		{ "<C-w>", mode = "n" },
 	},
 })
+
+wk.add({
+    { "<leader>b", group = "Buffer" },
+    { "<leader>c", group = "Code" },
+    { "<leader>f", group = "Find" },
+    { "<leader>g", group = "Git" },
+    { "<leader>l", group = "Terminal" },
+    { "<leader>u", group = "UI" },
+    { "<leader>w", group = "Window" },
+})

@@ -6,6 +6,8 @@ require("blink.cmp").setup({
 		["<A-k>"] = { "select_prev", "fallback" },
 
 		["<CR>"] = { "accept", "fallback" },
+		["<Tab>"] = { "select_next", "fallback" },
+		["<S-Tab>"] = { "select_prev", "fallback" },
 	},
 	sources = {
 		default = { "lsp", "path", "buffer" },

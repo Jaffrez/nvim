@@ -13,4 +13,6 @@ conform.setup({
 	},
 })
 
-map("n", "<leader>cf", conform.format, opts("Code: Format"))
+map({ "n", "x" }, "<leader>cf", function()
+    conform.format({ timeout_ms = 1500 })
+end, opts("Code: Format"))

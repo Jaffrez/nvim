@@ -64,3 +64,26 @@ for mode, mappings in pairs(keymaps) do
 		vim.keymap.set(mode, lhs, rhs, opts)
 	end
 end
+
+map("n", "<leader>bn", "<cmd>bnext<cr>", opts("Buffer: Next"))
+map("n", "<leader>bp", "<cmd>bprevious<cr>", opts("Buffer: Previous"))
+map("n", "<leader>bb", "<cmd>buffer #<cr>", opts("Buffer: Alternate"))
+map("n", "<leader>bd", "<cmd>bdelete<cr>", opts("Buffer: Delete"))
+map("n", "<leader>ws", "<C-w>s", opts("Window: Split below"))
+map("n", "<leader>wv", "<C-w>v", opts("Window: Split right"))
+map("n", "<leader>wc", "<cmd>close<cr>", opts("Window: Close"))
+map("n", "<leader>w=", "<C-w>=", opts("Window: Equal sizes"))
+map("n", "<leader>cd", vim.diagnostic.open_float, opts("Code: Line diagnostics"))
+
+for lhs, diagnostic_opts in pairs({
+    ["]d"] = { count = 1, float = false },
+    ["[d"] = { count = -1, float = false },
+    ["]e"] = { count = 1, float = false, severity = vim.diagnostic.severity.ERROR },
+    ["[e"] = { count = -1, float = false, severity = vim.diagnostic.severity.ERROR },
+}) do
+    map("n", lhs, function()
+        vim.diagnostic.jump(diagnostic_opts)
+    end, opts(diagnostic_opts.count > 0 and "Next diagnostic" or "Previous diagnostic"))
+end
+
+map("t", "<C-\\><C-\\>", "<C-\\><C-n>", opts("Terminal: Normal mode"))
