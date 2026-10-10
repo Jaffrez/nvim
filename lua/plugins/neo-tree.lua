@@ -5,5 +5,5 @@ require("neo-tree").setup({
 	},
 })
 
-map("n", "<leader>e", "<cmd>Neotree toggle<cr>", opts("Toggle neotree"))
-map("n", "<leader>E", "<cmd>Neotree reveal<cr>", opts("Reveal current file"))
+map("n", "<leader>ee", "<cmd>Neotree toggle<cr>", opts("Toggle neotree"))
+map("n", "<leader>eE", "<cmd>Neotree reveal<cr>", opts("Reveal current file"))
