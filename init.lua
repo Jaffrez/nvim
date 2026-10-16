@@ -13,3 +13,8 @@ require("core.options")
 require("core.keymaps")
 
 require("plugins")
+
+-- vim.api.nvim_clear_autocmds({
+--     group = "Pendulum",
+--     event = "BufEnter",
+-- })
