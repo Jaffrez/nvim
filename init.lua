@@ -11,10 +11,6 @@ vim.loader.enable()
 require("util.disable")
 require("core.options")
 require("core.keymaps")
+require("core.autocmds")
 
 require("plugins")
-
--- vim.api.nvim_clear_autocmds({
---     group = "Pendulum",
---     event = "BufEnter",
--- })
