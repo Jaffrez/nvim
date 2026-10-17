@@ -40,6 +40,10 @@
       "rev": "f916635dc5ae2f479fbb9ab8184bb9444b62e86c",
       "src": "https://github.com/nvim-mini/mini.icons"
     },
+    "mini-surround": {
+      "rev": "59ce0acf79e1d930756ef3a7cb4c2369560cf548",
+      "src": "https://github.com/nvim-mini/mini.surround"
+    },
     "neogit": {
       "rev": "a6549816e62cec7037f1549d8f1659d45635370c",
       "src": "https://github.com/neogitorg/neogit"

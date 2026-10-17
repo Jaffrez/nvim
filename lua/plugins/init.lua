@@ -15,6 +15,7 @@ vim.pack.add({
     { src = "https://github.com/akinsho/toggleterm.nvim", name = "toggleterm" },
     { src = "https://github.com/nvim-tree/nvim-tree.lua", name = "tree" },
     { src = "https://github.com/neogitorg/neogit", name = "neogit" },
+    { src = "https://github.com/nvim-mini/mini.surround", name = "mini-surround" },
 })
 
 require("plugins.catppuccin")
@@ -24,8 +25,9 @@ require("plugins.fidget")
 require("plugins.which_key")
 require("plugins.arborist")
 require("plugins.foldtext")
-require("plugins.blink-pairs")
-require("plugins.fzf-lua")
+require("plugins.blink_pairs")
+require("plugins.fzf_lua")
 require("plugins.toggleterm")
 require("plugins.tree")
 require("plugins.neogit")
+require("plugins.mini_surround")
