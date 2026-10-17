@@ -4,6 +4,11 @@
       "rev": "a34436d6b5efdc86e6f80f8c79844aae8d649a92",
       "src": "https://github.com/arborist-ts/arborist.nvim"
     },
+    "blink-cmp": {
+      "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
+      "src": "https://github.com/Saghen/blink.cmp",
+      "version": "1.0.0 - 2.0.0"
+    },
     "blink-indent": {
       "rev": "2e9c9768affeaf3a48b2dc329eb59763012f79f6",
       "src": "https://github.com/saghen/blink.indent"

@@ -11,6 +11,7 @@ vim.pack.add({
     { src = "https://github.com/saghen/blink.lib", name = "blink-lib" },
     { src = "https://github.com/saghen/blink.pairs", name = "blink-pairs" },
     { src = "https://github.com/saghen/blink.indent", name = "blink-indent" },
+    { src = "https://github.com/Saghen/blink.cmp", name = "blink-cmp", version = vim.version.range("1.*") },
     { src = "https://github.com/ibhagwan/fzf-lua", name = "fzf-lua" },
     { src = "https://github.com/akinsho/toggleterm.nvim", name = "toggleterm" },
     { src = "https://github.com/nvim-tree/nvim-tree.lua", name = "tree" },
@@ -31,3 +32,4 @@ require("plugins.toggleterm")
 require("plugins.tree")
 require("plugins.neogit")
 require("plugins.mini_surround")
+require("plugins.blink_cmp")
