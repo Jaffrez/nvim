@@ -17,6 +17,7 @@ vim.pack.add({
     { src = "https://github.com/nvim-tree/nvim-tree.lua", name = "tree" },
     { src = "https://github.com/neogitorg/neogit", name = "neogit" },
     { src = "https://github.com/nvim-mini/mini.surround", name = "mini-surround" },
+    { src = "https://github.com/mason-org/mason.nvim", name = "mason" },
 })
 
 require("plugins.catppuccin")
@@ -33,3 +34,4 @@ require("plugins.tree")
 require("plugins.neogit")
 require("plugins.mini_surround")
 require("plugins.blink_cmp")
+require("plugins.mason")

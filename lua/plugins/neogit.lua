@@ -1,5 +1,5 @@
-local neogit = require("neogit")
 local backdrop = require("util.backdrop")
+local neogit = require("neogit")
 
 neogit.setup({
     kind = "floating",

@@ -18,8 +18,8 @@ fzf.setup({
         border = "none",
         preview = {
             hidden = true,
-        }
-    }
+        },
+    },
 })
 
 vim.keymap.set("n", "<leader>ff", fzf.files, { desc = "Find: Files" })

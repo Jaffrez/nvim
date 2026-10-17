@@ -24,7 +24,9 @@ vim.opt.softtabstop = 4
 vim.opt.mouse = ""
 
 -- avoid increasing startup time
-vim.schedule(function() vim.opt.clipboard = 'unnamedplus' end)
+vim.schedule(function()
+    vim.opt.clipboard = "unnamedplus"
+end)
 
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
@@ -69,7 +71,7 @@ vim.opt.foldlevel = 99
 vim.opt.foldlevelstart = 99
 
 vim.o.list = true
-vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 vim.opt.shortmess:append("sI")
 

@@ -23,4 +23,3 @@ vim.g.termfeatures = {
     osc52 = false,
 }
 vim.cmd("syntax off")
-

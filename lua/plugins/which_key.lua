@@ -1,7 +1,7 @@
 require("which-key").setup({
     plugins = {
         spelling = {
-            enabled = false
-        }
-    }
+            enabled = false,
+        },
+    },
 })
