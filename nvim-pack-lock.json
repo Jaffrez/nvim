@@ -4,6 +4,10 @@
       "rev": "a34436d6b5efdc86e6f80f8c79844aae8d649a92",
       "src": "https://github.com/arborist-ts/arborist.nvim"
     },
+    "babel": {
+      "rev": "6c06b7dcc94d1940ea92a19af127e0f931452ee0",
+      "src": "https://github.com/acidsugarx/babel.nvim"
+    },
     "blink-cmp": {
       "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
       "src": "https://github.com/Saghen/blink.cmp",

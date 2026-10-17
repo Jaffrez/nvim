@@ -24,6 +24,7 @@ vim.pack.add({
     { src = "https://github.com/rachartier/tiny-inline-diagnostic.nvim", name = "tiny-inline-diagnostic" },
     { src = "https://github.com/DrKJeff16/project.nvim", name = "project" },
     { src = "https://github.com/OXY2DEV/markview.nvim", name = "markview" },
+    { src = "https://github.com/acidsugarx/babel.nvim", name = "babel" },
 })
 
 require("plugins.catppuccin")
@@ -48,3 +49,4 @@ require("plugins.tiny_inline_diagnostic")
 require("plugins.project")
 require("plugins.markview")
 require("plugins.treesitter_context")
+require("plugins.babel")

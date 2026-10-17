@@ -60,7 +60,7 @@ vim.opt.showcmd = false
 
 vim.opt.ruler = false
 
-vim.opt.cmdheight = 0
+vim.opt.cmdheight = 1
 
 vim.opt.shadafile = "NONE"
 

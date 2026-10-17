@@ -1,6 +1,6 @@
 require("blink.cmp").setup({
     keymap = {
-        preset = "enter",
+        preset = "super-tab",
     },
     completion = {
         menu = {
