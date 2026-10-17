@@ -14,5 +14,6 @@ require("arborist").setup({
         "rust",
         "toml",
         "yaml",
+        "latex",
     },
 })

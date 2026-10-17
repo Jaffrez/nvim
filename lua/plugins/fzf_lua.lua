@@ -19,6 +19,9 @@ fzf.setup({
         preview = {
             hidden = true,
         },
+        on_create = function(args)
+            vim.wo[args.winid].sidescrolloff = 0
+        end,
     },
 })
 

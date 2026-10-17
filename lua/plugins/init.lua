@@ -18,6 +18,12 @@ vim.pack.add({
     { src = "https://github.com/neogitorg/neogit", name = "neogit" },
     { src = "https://github.com/nvim-mini/mini.surround", name = "mini-surround" },
     { src = "https://github.com/mason-org/mason.nvim", name = "mason" },
+    { src = "https://github.com/stevearc/conform.nvim", name = "conform" },
+    { src = "https://github.com/neovim/nvim-lspconfig", name = "lspconfig" },
+    { src = "https://github.com/folke/lazydev.nvim", name = "lazydev" },
+    { src = "https://github.com/rachartier/tiny-inline-diagnostic.nvim", name = "tiny-inline-diagnostic" },
+    { src = "https://github.com/DrKJeff16/project.nvim", name = "project" },
+    { src = "https://github.com/OXY2DEV/markview.nvim", name = "markview" },
 })
 
 require("plugins.catppuccin")
@@ -35,3 +41,10 @@ require("plugins.neogit")
 require("plugins.mini_surround")
 require("plugins.blink_cmp")
 require("plugins.mason")
+require("plugins.conform")
+require("plugins.lsp")
+require("plugins.lazydev")
+require("plugins.tiny_inline_diagnostic")
+require("plugins.project")
+require("plugins.markview")
+require("plugins.treesitter_context")
