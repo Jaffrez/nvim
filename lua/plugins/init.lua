@@ -25,6 +25,7 @@ vim.pack.add({
     { src = "https://github.com/DrKJeff16/project.nvim", name = "project" },
     { src = "https://github.com/OXY2DEV/markview.nvim", name = "markview" },
     { src = "https://github.com/acidsugarx/babel.nvim", name = "babel" },
+    { src = "https://github.com/mrcjkb/rustaceanvim", name = "rustaceanvim" },
 })
 
 require("plugins.catppuccin")

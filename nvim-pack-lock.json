@@ -81,6 +81,10 @@
       "rev": "dffa13eb671f1514b1a961455006a82bf25afdad",
       "src": "https://github.com/DrKJeff16/project.nvim"
     },
+    "rustaceanvim": {
+      "rev": "4e01e114ad24e2f5ee91962e3a751b0c70a7447a",
+      "src": "https://github.com/mrcjkb/rustaceanvim"
+    },
     "tiny-inline-diagnostic": {
       "rev": "46ae9b3c8f3039e96ff4497d190ad0aee091f30d",
       "src": "https://github.com/rachartier/tiny-inline-diagnostic.nvim"

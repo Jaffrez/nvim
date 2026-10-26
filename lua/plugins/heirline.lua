@@ -1,5 +1,6 @@
 local colors = require("catppuccin.palettes").get_palette("frappe")
 local icons = require("mini.icons")
+local neogit = require("neogit.lib.git")
 
 local function escape(text)
     return (text:gsub("%%", "%%%%"))
@@ -72,6 +73,12 @@ local file = {
         self.name = vim.fn.expand("%:t")
         if self.name == "" then
             self.name = "[No Name]"
+        end
+        if self.name:find("toggleterm", 1, true) then
+            self.name = "Terminal"
+        end
+        if self.name:find("NvimTree") then
+            self.name = "Explorer"
         end
     end,
     {
