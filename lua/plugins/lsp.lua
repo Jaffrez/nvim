@@ -2,7 +2,7 @@ vim.lsp.config("*", {
     capabilities = require("blink.cmp").get_lsp_capabilities(),
 })
 
-vim.lsp.enable({ "lua_ls", "clangd", "ruff", "taplo" })
+vim.lsp.enable({ "lua_ls", "clangd", "ruff", "taplo", "just" })
 
 vim.diagnostic.config({
     virtual_text = false,
