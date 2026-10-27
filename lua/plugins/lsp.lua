@@ -12,7 +12,6 @@ vim.diagnostic.config({
 vim.api.nvim_create_autocmd("LspAttach", {
     callback = function(event)
         local fzf = require("fzf-lua")
-        local opts = { buffer = event.buf }
 
         -- Navigation
         vim.keymap.set("n", "gd", fzf.lsp_definitions, {
