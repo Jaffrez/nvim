@@ -14,7 +14,7 @@ vim.pack.add({
     { src = "https://github.com/Saghen/blink.cmp", name = "blink-cmp", version = vim.version.range("1.*") },
     { src = "https://github.com/ibhagwan/fzf-lua", name = "fzf-lua" },
     { src = "https://github.com/akinsho/toggleterm.nvim", name = "toggleterm" },
-    { src = "https://github.com/nvim-tree/nvim-tree.lua", name = "tree" },
+    { src = "https://github.com/Jaffrez/nvim-tree.lua", name = "tree" },
     { src = "https://github.com/neogitorg/neogit", name = "neogit" },
     { src = "https://github.com/nvim-mini/mini.surround", name = "mini-surround" },
     { src = "https://github.com/mason-org/mason.nvim", name = "mason" },

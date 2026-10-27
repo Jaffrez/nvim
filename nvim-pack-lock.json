@@ -94,8 +94,8 @@
       "src": "https://github.com/akinsho/toggleterm.nvim"
     },
     "tree": {
-      "rev": "355bcc85a48f45b3e728219f10b880d569928965",
-      "src": "https://github.com/nvim-tree/nvim-tree.lua"
+      "rev": "0f6bbc6d67aedc3eb109cfe02fe06b78e4c476ae",
+      "src": "https://github.com/Jaffrez/nvim-tree.lua"
     },
     "treesitter-context": {
       "rev": "8decd73460d26ef0a0befb745d022dd1fc2c38b8",
