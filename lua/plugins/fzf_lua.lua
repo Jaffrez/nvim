@@ -12,6 +12,7 @@ fzf.setup({
         prompt = "Live Grep> ",
     },
     fzf_colors = true,
+    ui_select = {},
     winopts = {
         height = 0.75,
         width = 0.4,

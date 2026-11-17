@@ -26,6 +26,7 @@ vim.pack.add({
     { src = "https://github.com/OXY2DEV/markview.nvim", name = "markview" },
     { src = "https://github.com/acidsugarx/babel.nvim", name = "babel" },
     { src = "https://github.com/mrcjkb/rustaceanvim", name = "rustaceanvim" },
+    { src = "https://github.com/Jaffrez/c51.nvim", name = "c51" },
 })
 
 require("plugins.catppuccin")
@@ -51,3 +52,4 @@ require("plugins.project")
 require("plugins.markview")
 require("plugins.treesitter_context")
 require("plugins.babel")
+require("plugins.c51")
