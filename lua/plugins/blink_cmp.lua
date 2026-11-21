@@ -1,6 +1,8 @@
 require("blink.cmp").setup({
     keymap = {
         preset = "super-tab",
+        ["<C-j>"] = { "select_next", "fallback" },
+        ["<C-k>"] = { "select_prev", "fallback" },
     },
     completion = {
         menu = {

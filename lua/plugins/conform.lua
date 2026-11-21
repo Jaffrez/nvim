@@ -13,6 +13,6 @@ vim.opt.formatexpr = "v:lua.require'conform'.formatexpr()"
 vim.keymap.set({ "n", "x" }, "<leader>cf", function()
     require("conform").format({
         async = true,
-        lsp_format = "never",
+        lsp_format = "fallback",
     })
 end, { desc = "Format code" })
